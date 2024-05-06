@@ -42,7 +42,7 @@ import './Issues.css';
             </div>
             
             <div className='issueDetails'>
-              <p>Tipo de incidencia: {issue.issue_type_name}</p>
+              <p>Tipo de incidencia:  {issue.issue_type_name}</p>
               <p>Locación: {issue.location_name}</p>
             </div>
           

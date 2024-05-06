@@ -1,15 +1,16 @@
 .issueContainer {
 display: flex;
 flex-wrap: wrap;
-gap: 10px;
+gap: 15px;
 place-content: center;
-padding: 2%;
+padding-top: 20px;
+margin-bottom: 20px;
 }
 
 .issue {
 background-color: rgb(185, 234, 253);
 padding: 1%;
-width: 27%;
+width: 26%;
 align-items: center;
 display: flex;
 flex-direction: column;
@@ -19,11 +20,11 @@ border-radius: 25px;
 gap: 10px;
 }
 .titleIssue {
-font-size: 25px;
+font-size: 20px;
 padding-top: 15px;
 }
 .descriptionIssue {
-    font-size: 20px;
+    font-size: 17px;
     text-align: justify;
     margin: 10px 0 16px 0;
 }
@@ -44,7 +45,7 @@ min-height: 60%;
 
 .issueDetails {
     width: 95%;
-    font-size: 19px;
+    font-size: 16px;
     padding: 3%;
     background-color: white;
     border-radius: 10px;
@@ -65,7 +66,7 @@ background-color: rgb(12, 146, 96);
 
 .buttonToPending ,.buttonToComplete {
     width: 69%;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     font-weight: bolder;
     border: none;

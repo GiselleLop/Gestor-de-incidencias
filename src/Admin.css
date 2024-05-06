@@ -1,6 +1,6 @@
 ul>li>div {
-width: 20px;
-height: 20px;
+width: 15px;
+height: 15px;
 border-radius: 20px;
 }
 li, ul{
@@ -9,7 +9,7 @@ flex-direction: row;
 align-items: center;
 }
 h1 {
-font-size: 25px;
+font-size: 20px;
 }
 ul {
     place-content: center;

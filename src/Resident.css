@@ -1,17 +1,15 @@
 .issueRegisterContainer {
-    align-items: center;
+align-items: center;
 height: 700px;
-margin: 20px 0 0 0;
 }
 .issueRegisterContainer , .issueRegisterContainer>form, .columnDiv {
 display: flex;
 flex-direction: column;
 }
 
-
 .issueRegisterContainer>p {
-font-size: 30px;
-padding: 20px 0;
+font-size: 20px;
+padding: 10px 0;
 }
 
 .issueRegisterContainer>form {
@@ -20,16 +18,17 @@ padding: 20px 0;
     justify-content: space-between;
     border: solid rgb(110, 165, 186) 5px;
     padding: 2%;
-    gap: 10px;
-    height: 500px;
+    gap: 7px;
+    height: 300px;
+    width: 35%;
 }
 .columnDiv {
 gap:10px;
-font-size: 20px;
+font-size: 17px;
 font-weight: bold;
 }
 .DivRow {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -37,15 +36,15 @@ font-weight: bold;
 
 }
 #description {
-height: 170px;
+height: 100px;
 }
 #title {
-height: 50px;
+height: 30px;
 }
 #title , #description, .DivRow>select  {
 border: none;
 border-radius: 10px;
-font-size: 20px;
+font-size: 10px;
 padding-left: 10px ;
 }
 
@@ -54,7 +53,7 @@ width: 30%;
 }
 #submit_button {
     border: none;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     padding: 5px 0;
    border-radius: 10px;

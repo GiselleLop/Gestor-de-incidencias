@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Filter.css';
-import { IssueTypeInterface } from './Interfaces';
-// Definición de la interfaz FilterProps que describe las props que recibe el componente FilterBar
-interface FilterProps { 
+import { IssueTypeInterface } from './Interfaces';interface FilterProps { 
      // Función que se llama cuando se aplica un filtro. Recibe el tipo de incidencia seleccionado como argumento
     onFilter: (selectedIssueType: string) => void;   
      // Array que contiene los tipos de incidencia disponibles
@@ -10,14 +8,12 @@ interface FilterProps {
 }
 
 function FilterBar({onFilter, issueTypes }: FilterProps) {
-    // Estado para almacenar el tipo de incidencia seleccionado
-    const [selectedIssueType, setSelectedIssueType] = useState<string>('');
-    
-  // Función que se llama cuando se aplica un filtro
+  const [selectedIssueType, setSelectedIssueType] = useState<string>('');
+
   const handleFilter = () => {
-     // Llama a la función onFilter pasándole el tipo de incidencia seleccionado
     onFilter(selectedIssueType);
 };
+
 return (
     <div className="filter-bar">
 

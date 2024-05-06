@@ -7,8 +7,9 @@ background-color: rgb(110, 165, 186);
 width: 100%;
 }
 
+
 header> h1 {
-  font-size: 50px;
+  font-size: 40px;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color:  rgb(38, 58, 65);
   color: white;
@@ -16,13 +17,12 @@ header> h1 {
 }
  .back  {
 height: min-content;
-padding: 10px ;
+padding: 8px ;
 position: absolute;
 left: 0;
 margin-left: 7%;
-
 background-color: rgb(255, 255, 255);
-font-size: 20px;
+font-size: 17px;
 color: rgb(27, 27, 27);
 font-weight: bolder;
 text-align: center;
