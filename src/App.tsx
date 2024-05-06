@@ -1,4 +1,4 @@
-import React,  { useState } from 'react';
+import { useState } from 'react';
 import { Route, Redirect, useLocation  } from 'wouter';
 import Home from './Home';
 import Admin from './Admin';
@@ -6,7 +6,6 @@ import Resident from './Resident';
 import Header from './Header';
 
 function App() {
-    const [showHomeButton, setShowHomeButton] = useState(false);
     const [location, setLocation] = useLocation();
 
     const showBackButton = location === '/admin' || location === '/resident';
@@ -15,7 +14,6 @@ function App() {
     <div>       
     <Header showHomeButton={showBackButton} onBack={() => {
       setLocation('/home');
-      setShowHomeButton(false)
     }
    } />
 
