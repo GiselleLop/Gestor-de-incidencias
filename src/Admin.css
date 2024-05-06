@@ -1,0 +1,28 @@
+ul>li>div {
+width: 20px;
+height: 20px;
+border-radius: 20px;
+}
+li, ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+h1 {
+font-size: 25px;
+}
+ul {
+    place-content: center;
+    gap: 6%;  
+    margin-top: 20px;
+}
+li {
+gap: 10px;
+}
+.circlePending {
+background-color: rgb(225, 124, 8);
+}
+
+.circleCompete {
+    background-color: rgb(12, 146, 96);
+}

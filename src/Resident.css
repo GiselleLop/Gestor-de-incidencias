@@ -1,0 +1,68 @@
+.issueRegisterContainer {
+    align-items: center;
+height: 700px;
+margin: 20px 0 0 0;
+}
+.issueRegisterContainer , .issueRegisterContainer>form, .columnDiv {
+display: flex;
+flex-direction: column;
+}
+
+
+.issueRegisterContainer>p {
+font-size: 30px;
+padding: 20px 0;
+}
+
+.issueRegisterContainer>form {
+    background-color: rgb(185, 234, 253);
+    border-radius: 20px;
+    justify-content: space-between;
+    border: solid rgb(110, 165, 186) 5px;
+    padding: 2%;
+    gap: 10px;
+    height: 500px;
+}
+.columnDiv {
+gap:10px;
+font-size: 20px;
+font-weight: bold;
+}
+.DivRow {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#description {
+height: 170px;
+}
+#title {
+height: 50px;
+}
+#title , #description, .DivRow>select  {
+border: none;
+border-radius: 10px;
+font-size: 20px;
+padding-left: 10px ;
+}
+
+.DivRow>select {
+width: 30%;
+}
+#submit_button {
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 0;
+   border-radius: 10px;
+    background-color: rgb(22, 61, 76);
+    color: white;
+}
+
+#submit_button:hover {
+    background-color: rgb(49, 144, 182);
+    color: rgb(0, 0, 0);
+}

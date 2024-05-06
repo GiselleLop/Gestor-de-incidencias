@@ -1,0 +1,24 @@
+.filter-item {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    margin: 20px 0 0 0;
+    gap: 10px;
+    align-items: center;
+   
+}
+option, button, .filter-item, select {
+    font-size: 20px;
+}
+button {
+    background-color: rgb(185, 234, 253);
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    color:  rgb(43, 60, 67);
+    border-radius: 10px;
+}
+button:hover {
+background-color: rgb(43, 60, 67) ;
+color:rgb(185, 234, 253) ;
+}
